@@ -30,15 +30,8 @@ class TodolistTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    func createToDos() -> [ToDo]{
-        let swift = ToDo()
-        swift.name = "Learn Swift"
-        swift.important = true
-        let dog = ToDo ()
-        dog.name = "Walk the Dog"
-        //important to set it to false by default
-        return [swift, dog]
+    
         
     }
 
-}
+
